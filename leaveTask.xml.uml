@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>BPMN_2_0</ID>
+  <OriginalElement>flowPath=I:/JavaCode/Test/ActivityTest/src/main/resources/leaveTask.xml</OriginalElement>
+  <nodes>
+    <node x="13.5" y="252.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @2374</node>
+    <node x="10.0" y="168.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @2365</node>
+    <node x="11.0" y="0.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @2353</node>
+    <node x="10.0" y="84.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @2356</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @2365" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @2374">
+      <point x="0.0" y="15.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+    <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @2356" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @2365">
+      <point x="0.0" y="15.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+    <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @2353" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @2356">
+      <point x="0.0" y="15.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="56.0" y="141.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Details</Category>
+  </Categories>
+</Diagram>
+
